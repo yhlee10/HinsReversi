@@ -329,12 +329,12 @@ img:hover {
             endGame(countb,countw,counte);
           }
         }
-        if (document.getElementById("mode").value == "1" && end != 1 && forcePassCheck()==true){
+        if (document.getElementById("mode").value == "1" && end != 1 && forcePassCheck() == true){
           if (document.getElementById("player2").value == "1" && chess == -1){
             validity=0;
             computerMove(chess);
           }
-          if (document.getElementById("player2").value == "2" && chess == 1 && forcePassCheck()==true){
+          if (document.getElementById("player2").value == "2" && chess == 1 && forcePassCheck() == true){
             validity=0;
             computerMove(chess);
           }
